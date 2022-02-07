@@ -1,0 +1,28 @@
+﻿$white: #fff;
+$black: #000;
+$primary: #efefef;
+$secondary: #5a4087;
+$complimentary: #429697;
+
+.message {
+    font-size: 17px;
+    background: #5a4087;
+    opacity: 0.95;
+    color: $white;
+    transition: ease 1s;
+    display: none;
+    top: 0;
+    left: 0;
+}
+body {
+    background: $white;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    background: $primary;
+    width: 50%;
+    border: 1.5px solid $complimentary;
+    color: $secondary;
+}
